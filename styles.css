@@ -1,0 +1,43 @@
+#leftHalf {
+    background: url(bg-1.jpg);
+    background-repeat: no-repeat;
+    width: 60%;
+    position: absolute;
+    left: 50px;
+    height: 100%;
+    z-index: 1;
+}
+
+
+#logo {
+    width: 35%;
+    height: 50%;
+    position:absolute;
+    left: 80px;
+    top: 75px;
+    z-index: 3;
+}
+
+
+#logocontain {
+    background: rgb(31, 31, 31);
+    height: 200px;
+    width:461px;
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    z-index:2;
+    opacity: 75%;    
+}
+
+#logotext {
+    margin-top: 70px; 
+    margin-left: 220px;
+    font-size: xx-large;
+    font-style: oblique;
+    opacity: 100%;
+    color:white;
+    font-family: serif;
+    
+    
+}
