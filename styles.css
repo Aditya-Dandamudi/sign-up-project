@@ -9,8 +9,8 @@
 }
 
 #logo {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     position:absolute;
     left: 80px;
     top: 75px;
@@ -19,18 +19,18 @@
 
 #logocontain {
     background: rgb(31, 31, 31);
-    height: 180px;
+    height: 150px;
     width:461px;
     position: absolute;
     left: 100px;
-    top: 130px;
+    top: 140px;
     z-index:2;
     opacity: 75%;    
 }
 
 #logotext {
-    margin-top: 70px; 
-    margin-left: 220px;
+    margin-top: 37px; 
+    margin-left: 200px;
     font-size: xx-large;
     font-style: oblique;
     opacity: 100%;
@@ -40,12 +40,13 @@
 
 
 #credits{
-    position:fixed;
+    position: absolute;
     bottom: 10px;
-    left: 15%;
+    left: 13%;
     font-size: large;
     color:white;
     z-index: 4;
+    width: 250px;
 }
 
 
@@ -107,7 +108,7 @@
     border-radius: 8px;
     padding:8px 30px;
     left:40px;    
-    box-shadow: 2px 2px #666;
+    box-shadow: 3px 3px #666;
     transform: translateY(10px);
 }
 
